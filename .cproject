@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?fileVersion 4.0.0?>
-
-<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
 	<storageModule moduleId="org.eclipse.cdt.core.settings">
 		<cconfiguration id="com.android.toolchain.gcc.1690617054">
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.android.toolchain.gcc.1690617054" moduleId="org.eclipse.cdt.core.settings" name="Default">
 				<externalSettings/>
 				<extensions>
-					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 					<extension id="org.eclipse.cdt.core.VCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
@@ -15,6 +12,7 @@
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
@@ -22,11 +20,9 @@
 					<folderInfo id="com.android.toolchain.gcc.1690617054.1789056761" name="/" resourcePath="">
 						<toolChain id="com.android.toolchain.gcc.1138802176" name="com.android.toolchain.gcc" nonInternalBuilderId="com.android.builder" superClass="com.android.toolchain.gcc">
 							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF" id="com.android.targetPlatform.578872696" isAbstract="false" superClass="com.android.targetPlatform"/>
-							<builder autoBuildTarget="" cleanBuildTarget="clean" command="/Users/Sai/Documents/android-ndk-r10d/ndk-build" enableAutoBuild="false" enableCleanBuild="true" enabledIncrementalBuild="true" id="com.android.builder.1791480806" incrementalBuildTarget="" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Android Builder" parallelizationNumber="1" superClass="com.android.builder"/>
+							<builder autoBuildTarget="" cleanBuildTarget="clean" command="/Users/Sai/opt/android-ndk-r10d/ndk-build" enableAutoBuild="false" enableCleanBuild="true" enabledIncrementalBuild="true" id="com.android.builder.1791480806" incrementalBuildTarget="" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Android Builder" parallelizationNumber="1" superClass="com.android.builder"/>
 							<tool id="com.android.gcc.compiler.30139823" name="Android GCC Compiler" superClass="com.android.gcc.compiler">
-								<option id="com.android.gcc.option.includePath.540469610" superClass="com.android.gcc.option.includePath" valueType="includePath">
-									<listOptionValue builtIn="false" value="/Users/Sai/Documents/android-ndk-r10d/platforms/android-19/arch-arm/usr/include"/>
-								</option>
+								<option id="com.android.gcc.option.includePath.540469610" superClass="com.android.gcc.option.includePath" valueType="includePath"/>
 								<inputType id="com.android.gcc.inputType.2140856393" superClass="com.android.gcc.inputType"/>
 							</tool>
 						</toolChain>

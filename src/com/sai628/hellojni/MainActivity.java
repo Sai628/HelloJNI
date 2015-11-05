@@ -27,5 +27,4 @@ public class MainActivity extends Activity
 
 
 	public native String printJNI(String input);
-
 }

@@ -27,7 +27,7 @@
 				</dictionary>
 				<dictionary>
 					<key>org.eclipse.cdt.make.core.buildCommand</key>
-					<value>/Users/Sai/Documents/android-ndk-r10d/ndk-build</value>
+					<value>/Users/Sai/opt/android-ndk-r10d/ndk-build</value>
 				</dictionary>
 				<dictionary>
 					<key>org.eclipse.cdt.make.core.cleanBuildTarget</key>
