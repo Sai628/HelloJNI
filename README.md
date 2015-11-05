@@ -1,3 +1,3 @@
 # HelloJNI
 
-##### This is just a demo for android-jni. 
+This is just a demo for android-jni. 
